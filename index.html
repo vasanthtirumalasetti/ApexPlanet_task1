@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vasanth's First Webpage</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9fbfc;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #0077cc;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    h2 {
+      color: #0077cc;
+    }
+
+    img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 8px;
+      margin: 20px 0;
+    }
+
+    a {
+      color: #cc0055;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    button {
+      margin: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #0077cc;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #005fa3;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Webpage</h1>
+    <p>Exploring HTML, CSS, and JavaScript</p>
+  </header>
+
+  <section>
+    <h2>About This Page</h2>
+    <p>This page is built using basic web technologies. It includes headings, paragraphs, images, links, and interactive buttons.</p>
+
+    <img src="avatar-placeholder-generator-500x500.avif" alt="A placeholder image">
+
+    <p>Want to learn more? Visit <a href="https://developer.mozilla.org/en-US/docs/Web" target="_blank">MDN Web Docs</a>.</p>
+
+    <button onclick="showMessage()">Click for a Greeting</button>
+    <button onclick="changeBackground()">Change Background</button>
+  </section>
+
+  <footer>
+    &copy; 2025 Vasanth's Web Playground
+  </footer>
+
+  <script>
+    function showMessage() {
+      alert("Hello, Vasanth! Thanks for clicking.");
+    }
+
+    function changeBackground() {
+      document.body.style.backgroundColor = "#e0f7fa";
+    }
+  </script>
+
+</body>
+</html>
